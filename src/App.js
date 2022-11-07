@@ -14,6 +14,7 @@ import Home from "./components/home/Home";
 import UpdatePost from "./components/Posts/CreatePost/UpdatePost";
 import UsersList from "./components/Users/usersList/UsersList";
 import Allpost from "./components/Posts/CreatePost/Allposts";
+import About from "./components/about/About";
 
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route exact path="/update-post/:id" element={<UpdatePost />} />
           <Route exact path="/products" element={<Allpost />} />
+          <Route exact path="/about" element={<About/>} />
         </Routes>
       </Router>
     </div>
